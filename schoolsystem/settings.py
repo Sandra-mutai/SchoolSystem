@@ -1,3 +1,4 @@
+import django_heroku
 """
 Django settings for schoolsystem project.
 
@@ -12,14 +13,13 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 from pathlib import Path
-from django import forms
-import django
-import django_heroku
+
+
 
 from django.db import models
-from django.http import request
-from django.shortcuts import render
-from django.utils import html
+
+
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
