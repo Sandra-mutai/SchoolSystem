@@ -1,4 +1,3 @@
-import django_heroku
 """
 Django settings for schoolsystem project.
 
@@ -12,6 +11,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os
+import django_heroku
+
 from pathlib import Path
 
 
